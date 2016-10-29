@@ -1,0 +1,6 @@
+<ul>
+  <li ng-repeat="elemento in lista track by $index">
+    <h1>{{elemento}}</h1>
+    <button type="button" ng-click="excluir({index: $index})">Excluir</button>
+  </li>
+</ul>
